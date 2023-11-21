@@ -37,10 +37,15 @@ This project is an Attendance System built using Raspberry Pi 4, RFID technology
 3. **Install Dependencies**: Install the necessary Python libraries and packages using the following commands:
 
    ```bash
-   sudo apt-get update
-   sudo apt-get install python3
-   sudo apt-get install python3-opencv
-   # Install other required libraries
+   sudo apt update
+   sudo apt upgrade
+   sudo apt-get install -y libhdf5-dev libhdf5-serial-dev python3-pyqt5 libatlas-base-dev libjasper-dev
+   sudo apt install python3-dev python3-pip
+   sudo pip3 install spidev
+   sudo pip3 install mfrc522
+   sudo pip3 install dlib
+   sudo pip3 install RPi.GPIO
+   sudo pip3 install opencv-python
    ```
 
 4. **Clone the Repository**: Clone this GitHub repository to your Raspberry Pi:
@@ -60,7 +65,7 @@ This project is an Attendance System built using Raspberry Pi 4, RFID technology
 
 #### Documentation
 
-For detailed documentation, check the [Wiki](https://github.com/your-username/attendance-system/wiki) section of this repository.
+For detailed documentation, read the report and presentation.
 
 
 #### License
