@@ -46,25 +46,22 @@ This project is an Attendance System built using Raspberry Pi 4, RFID technology
 4. **Clone the Repository**: Clone this GitHub repository to your Raspberry Pi:
 
    ```bash
-   git clone https://github.com/your-username/attendance-system.git
+   git clone https://github.com/Perceus64/Attendance-System.git
    ```
 
-5. **Configuration**: Modify the configuration files (if any) to set up SMTP credentials, camera settings, etc.
+5. **Configuration**: Modify the configuration file to set up SMTP credentials, users.csv path, camera settings, etc.
 
 6. **Run the System**: Execute the main Python script to start the attendance system:
 
    ```bash
    cd attendance-system
-   python3 main.py
+   python3 IoT_Project.py
    ```
 
 #### Documentation
 
 For detailed documentation, check the [Wiki](https://github.com/your-username/attendance-system/wiki) section of this repository.
 
-#### Issues and Contributions
-
-If you encounter any issues or would like to contribute to the project, please open an issue or submit a pull request.
 
 #### License
 
